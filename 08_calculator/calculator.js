@@ -1,3 +1,4 @@
+
 const add = function (a, b) {
   return a + b;
 };
@@ -24,7 +25,7 @@ const power = function (x, pow) {
 
 const factorial = function (n) {
   return n == 0 ? 1 : n * factorial(n - 1);
-};
+}
 
 // Do not edit below this line
 module.exports = {
@@ -35,3 +36,4 @@ module.exports = {
   power,
   factorial,
 };
+
