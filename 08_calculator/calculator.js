@@ -8,13 +8,13 @@ const subtract = function (a, b) {
 
 const sum = function (arr) {
   let sum = 0;
-  arr.forEach( e => sum += e );
+  arr.forEach((e) => (sum += e));
   return sum;
 };
 
 const multiply = function (arr) {
   let product = 1;
-  arr.forEach( e => product *= e );
+  arr.forEach((e) => (product *= e));
   return product;
 };
 
@@ -23,8 +23,7 @@ const power = function (x, pow) {
 };
 
 const factorial = function (n) {
-	let total;
-  return (n == 0 ? 1 : total = n * factorial(n - 1));
+  return n == 0 ? 1 : n * factorial(n - 1);
 };
 
 // Do not edit below this line
